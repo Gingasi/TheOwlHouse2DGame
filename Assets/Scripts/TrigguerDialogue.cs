@@ -29,7 +29,7 @@ public class TrigguerDialogue : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.name.Equals("Square"))
+        if (other.gameObject.name.Equals("Hooty"))
         {
             isTrigerOn = true;
             CharSprite.SetActive(true);
