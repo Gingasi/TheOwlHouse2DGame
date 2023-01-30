@@ -16,6 +16,7 @@ public class TrigguerDialogue : MonoBehaviour
     {
         //dialogManager = FindObjectOfType<TriggerDialogue>();
         isTrigerOn = false;
+        CharSprite.SetActive(false);
     }
 
     // Update is called once per frame
@@ -26,6 +27,7 @@ public class TrigguerDialogue : MonoBehaviour
             //dialogManager.ShowDialog(DialogPlusNPCName());
         }    */    
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
