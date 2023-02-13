@@ -1996,6 +1996,7 @@ Transform:
   - {fileID: 1851488190}
   - {fileID: 1932883971}
   - {fileID: 1084296066}
+  - {fileID: 1725334340}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2035,7 +2036,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1386677618}
+  m_Follow: {fileID: 1682051536}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -2062,16 +2063,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262267091}
   m_LocalRotation: {x: 0.18416378, y: 0.004206658, z: -0.0007882032, w: 0.98288625}
-  m_LocalPosition: {x: -0.99, y: 8.66, z: -8.49}
+  m_LocalPosition: {x: 0.00999999, y: 8.639999, z: -8.49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 356576675}
   - {fileID: 1091466031}
   - {fileID: 2111884749}
-  - {fileID: 1725334340}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &291608909
 GameObject:
@@ -2325,7 +2325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336442958}
   - component: {fileID: 336442959}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3084,7 +3084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 442849734}
   - component: {fileID: 442849735}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3420,7 +3420,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463983500}
   - component: {fileID: 463983501}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 613630366}
   - component: {fileID: 613630367}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5330,7 +5330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 707564861}
   - component: {fileID: 707564862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5498,7 +5498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733887256}
   - component: {fileID: 733887257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5673,7 +5673,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &770841445
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5981,7 +5981,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783285711}
   m_LocalRotation: {x: 0.18416378, y: 0.004206658, z: -0.0007882032, w: 0.98288625}
-  m_LocalPosition: {x: -0.99, y: 8.66, z: -8.49}
+  m_LocalPosition: {x: 0.00999999, y: 8.639999, z: -8.49}
   m_LocalScale: {x: 1920, y: 1080, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6067,7 +6067,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e58ba90b0f9449479ae9a9da00c182d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 1386677618}
+  target: {fileID: 1682051536}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &787550967
 GameObject:
@@ -6407,7 +6407,7 @@ GameObject:
   m_Component:
   - component: {fileID: 841154723}
   - component: {fileID: 841154724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6664,7 +6664,7 @@ Transform:
   - {fileID: 77976197}
   - {fileID: 756482644}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &894805702
 GameObject:
@@ -6676,7 +6676,7 @@ GameObject:
   m_Component:
   - component: {fileID: 894805703}
   - component: {fileID: 894805704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7264,7 +7264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 963420009}
   - component: {fileID: 963420010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7508,7 +7508,7 @@ GameObject:
   m_Component:
   - component: {fileID: 992517424}
   - component: {fileID: 992517425}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8776,7 +8776,7 @@ Transform:
   - {fileID: 834064375}
   - {fileID: 1063192350}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160088337
 GameObject:
@@ -9040,7 +9040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1242671302}
   - component: {fileID: 1242671303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9208,7 +9208,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259189767}
   - component: {fileID: 1259189768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9713,7 +9713,7 @@ GameObject:
   - component: {fileID: 1304539718}
   - component: {fileID: 1304539717}
   - component: {fileID: 1304539716}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10394,7 +10394,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1386677614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10513,7 +10513,7 @@ Transform:
   - {fileID: 609203781}
   - {fileID: 454190608}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &1386677619
 CircleCollider2D:
@@ -10709,7 +10709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1435675461}
   - component: {fileID: 1435675462}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10867,6 +10867,71 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1448213747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 243024424646236370, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_GravityScale
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236376, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_Name
+      value: MAIN_CHar
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 243024424646236382, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
 --- !u!1 &1448689576
 GameObject:
   m_ObjectHideFlags: 0
@@ -10877,7 +10942,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1448689577}
   - component: {fileID: 1448689578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12430,6 +12495,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1682051536 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 243024424646236381, guid: a90fd18caa56b9341857f11b3a47155f, type: 3}
+  m_PrefabInstance: {fileID: 1448213747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1722864334
 GameObject:
   m_ObjectHideFlags: 0
@@ -12530,13 +12600,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1725334339}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.79, y: 0.01, z: 7.54}
-  m_LocalScale: {x: 0.76587975, y: 0.8041402, z: 0.50672674}
+  m_LocalRotation: {x: 0.18416378, y: 0.004206658, z: -0.0007882032, w: 0.98288625}
+  m_LocalPosition: {x: -36.339867, y: 0.9102874, z: -1.4684858}
+  m_LocalScale: {x: 0.7658799, y: 0.80414057, z: 0.5067267}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 262267093}
-  m_RootOrder: 3
+  m_Father: {fileID: 260487816}
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1725334341
 SpriteRenderer:
@@ -12760,7 +12830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1799461531}
   - component: {fileID: 1799461532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13180,7 +13250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1869174265}
   - component: {fileID: 1869174266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13264,7 +13334,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1879840070}
   - component: {fileID: 1879840071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13516,7 +13586,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1925545948}
   - component: {fileID: 1925545949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13684,7 +13754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1933206179}
   - component: {fileID: 1933206180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13806,7 +13876,7 @@ Transform:
   - {fileID: 1759393149}
   - {fileID: 1208894792}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1956275167
 GameObject:
@@ -14154,7 +14224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2085950418}
   - component: {fileID: 2085950419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14322,7 +14392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2099082082}
   - component: {fileID: 2099082083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 54055-3-ground-image-hd-image-free-png
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14632,7 +14702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7657868698498998659, guid: ba935df351cab51488f0dc89012c0034, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7657868698498998659, guid: ba935df351cab51488f0dc89012c0034, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14709,7 +14779,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5941393579201447456, guid: 85d76d62a07a44e45aef0395c55eb2f2, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5941393579201447456, guid: 85d76d62a07a44e45aef0395c55eb2f2, type: 3}
       propertyPath: m_LocalPosition.x
