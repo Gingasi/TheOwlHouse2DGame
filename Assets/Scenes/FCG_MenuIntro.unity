@@ -466,7 +466,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 279516513}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dcd12b001fa3cad4fa7bea6fe5f073a8, type: 3}
+  m_Script: {fileID: 11500000, guid: f36f2b83c7d8bd544a2e9f5018ae23cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &326701368
@@ -660,7 +660,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 398896184}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 279516518}
+        m_TargetAssemblyTypeName: MenuMan, Assembly-CSharp
+        m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &398896184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1381,8 +1393,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 279516518}
-        m_TargetAssemblyTypeName: FCG_MoveBetweenScene, Assembly-CSharp
-        m_MethodName: Starts
+        m_TargetAssemblyTypeName: MenuMan, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2160,8 +2172,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 279516518}
-        m_TargetAssemblyTypeName: FCG_MoveBetweenScene, Assembly-CSharp
-        m_MethodName: Starts
+        m_TargetAssemblyTypeName: MenuMan, Assembly-CSharp
+        m_MethodName: Options
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
