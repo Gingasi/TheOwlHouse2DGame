@@ -15,9 +15,12 @@ TagManager:
   - Kikimora
   - Lackey
   - Object
-  - Glyph
   - Dialog
   - Reload_CHar
+  - LightGliph
+  - FireGliph
+  - PlantGliph
+  - iceGliph
   layers:
   - Default
   - TransparentFX
