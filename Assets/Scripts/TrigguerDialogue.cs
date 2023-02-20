@@ -7,14 +7,14 @@ public class TrigguerDialogue : MonoBehaviour
 {
 
     public bool isTrigerOn;
-    public GameObject CharSprite;
+    public GameObject Character1;
 
 
     void Start()
     {
         //dialogManager = FindObjectOfType<TriggerDialogue>();
         isTrigerOn = false;
-        CharSprite.SetActive(false);
+        Character1.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -22,7 +22,7 @@ public class TrigguerDialogue : MonoBehaviour
         if (other.gameObject.name.Equals("MAIN_CHar"))
         {
             isTrigerOn = true;
-            CharSprite.SetActive(true);
+            Character1.SetActive(true);
             Time.timeScale = 0f;
         }
     }
@@ -30,8 +30,9 @@ public class TrigguerDialogue : MonoBehaviour
    public void ButtonClose()
     {
         isTrigerOn = false;
-        CharSprite.SetActive(false);
+        Character1.SetActive(false);
         Time.timeScale = 1f;
+        Destroy(gameObject);
     }
 
 

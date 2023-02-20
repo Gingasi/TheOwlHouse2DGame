@@ -17,6 +17,7 @@ TagManager:
   - Object
   - Glyph
   - Dialog
+  - Reload_CHar
   layers:
   - Default
   - TransparentFX

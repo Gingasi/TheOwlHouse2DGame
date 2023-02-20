@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5941393579201447456}
   - component: {fileID: 5522699720724880328}
+  - component: {fileID: 693427638298227437}
   m_Layer: 0
   m_Name: TriggerDialogues
   m_TagString: Untagged
@@ -42,7 +43,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 5.449656}
@@ -58,3 +59,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 11.536002}
   m_EdgeRadius: 0
+--- !u!114 &693427638298227437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5140440002263564892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edd8b4c002d8cd45b709e9a6454f579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTrigerOn: 0
+  Character1: {fileID: 8876897702425514168, guid: f6355b90c7967984590752046bd5e749, type: 3}
