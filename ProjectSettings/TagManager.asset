@@ -4,23 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Luz
-  - Amity
-  - Lilith
-  - Eda
-  - HarpyEda
-  - Hunter
-  - King
+  - Light
+  - Fire
+  - Ice
+  - Plant
+  - hooty
   - Belos
   - Kikimora
-  - Lackey
-  - Object
-  - Dialog
-  - Reload_CHar
-  - LightGliph
-  - FireGliph
-  - PlantGliph
-  - iceGliph
+  - NextScene
+  - DialogTrigger
+  - Luz
   layers:
   - Default
   - TransparentFX

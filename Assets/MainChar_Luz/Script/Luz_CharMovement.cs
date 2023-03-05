@@ -8,26 +8,20 @@ public class Luz_CharMovement : MonoBehaviour
     private float speed = 7f;
     private float JumpingPower = 20f;
     private bool isFacingRight = true;
-    private bool isJumping;
+    private bool isJumping = false;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundcheck;
     [SerializeField] private LayerMask groundLayer;
 
-     public Animator Luz;
+    public Animator Luz;
+    private InstantianteGlyphs InstantianteGlyphsScript;
 
-    public Vector3 StartPosition;
-
-
-
-    void OnCollisionEnter(Collision otherCollider)
+    void Start()
     {
-        if (otherCollider.gameObject.CompareTag("Reload_CHar"))
-        {
-            transform.position = StartPosition;
-        }
-    }
+        InstantianteGlyphsScript = FindObjectOfType<InstantianteGlyphs>();
 
+    }
 
     // Update is called once per frame
     void Update()
@@ -43,7 +37,7 @@ public class Luz_CharMovement : MonoBehaviour
 
         Luz.SetFloat("Speed", Mathf.Abs(horizontal));
 
-        
+
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -51,6 +45,9 @@ public class Luz_CharMovement : MonoBehaviour
             isJumping = true;
             Luz.SetBool("IsJumping", true);
         }
+
+
+
 
         Luz.SetBool("IsJumping", !IsGrounded());
 
@@ -61,15 +58,25 @@ public class Luz_CharMovement : MonoBehaviour
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
-            
+
         }
 
 
         Flip();
 
-        
+        if (Input.GetButtonDown("Fire1"))
+        {
+            Attack();
+        }
+        else
+        {
+            NonAttack();
+        }
+
+
 
     }
+    
 
    
     private void FixedUpdate ()
@@ -92,5 +99,18 @@ public class Luz_CharMovement : MonoBehaviour
             localScale.x *= -1f;
             transform.localScale = localScale;
         }
+    }
+
+    private void Attack()
+    {
+        Luz.SetBool("IsAttacking", true);
+        InstantianteGlyphsScript.ShoootGlyph();
+
+
+    }
+
+    private void NonAttack()
+    {
+        Luz.SetBool("IsAttacking", false);
     }
 }

@@ -17,9 +17,9 @@ public class TrigguerDialogue : MonoBehaviour
         Character1.SetActive(false);
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        if (other.gameObject.name.Equals("MAIN_CHar"))
+        if (otherCollider.gameObject.CompareTag("Luz"))
         {
             isTrigerOn = true;
             Character1.SetActive(true);
@@ -27,12 +27,12 @@ public class TrigguerDialogue : MonoBehaviour
         }
     }
 
-   public void ButtonClose()
+  public void GameisOn()
     {
         isTrigerOn = false;
-        Character1.SetActive(false);
-        Time.timeScale = 1f;
         Destroy(gameObject);
+        Time.timeScale = 1f;
+        
     }
 
 
