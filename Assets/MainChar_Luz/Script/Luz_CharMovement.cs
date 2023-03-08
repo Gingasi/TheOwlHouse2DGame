@@ -16,10 +16,13 @@ public class Luz_CharMovement : MonoBehaviour
 
     public Animator Luz;
     private InstantianteGlyphs InstantianteGlyphsScript;
+    private TrigguerDialogue TrigguerDialogueScript;
 
     void Start()
     {
         InstantianteGlyphsScript = FindObjectOfType<InstantianteGlyphs>();
+        TrigguerDialogueScript = FindObjectOfType<TrigguerDialogue>();
+        Time.timeScale = 1;
 
     }
 
@@ -67,10 +70,12 @@ public class Luz_CharMovement : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Attack();
+            Time.timeScale = 1;
         }
         else
         {
             NonAttack();
+
         }
 
 

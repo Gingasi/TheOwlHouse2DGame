@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
    
-    private void OnCollisionEnter(Collision otherCollider)
+    private void OnTriggerEnter2D(Collider2D otherCollider)
     {
         if (otherCollider.gameObject.name.Equals("MAIN_CHar"))
         {

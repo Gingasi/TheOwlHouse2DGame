@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class TrigguerDialogue : MonoBehaviour
 {
 
-    public bool isTrigerOn;
+    public static bool isTrigerOn;
     public GameObject Character1;
+    public bool AttackIsOn;
 
 
     void Start()
@@ -15,6 +16,8 @@ public class TrigguerDialogue : MonoBehaviour
         //dialogManager = FindObjectOfType<TriggerDialogue>();
         isTrigerOn = false;
         Character1.SetActive(false);
+        AttackIsOn = false;
+        Time.timeScale = 1;
     }
 
     public void OnTriggerEnter2D(Collider2D otherCollider)
@@ -23,18 +26,27 @@ public class TrigguerDialogue : MonoBehaviour
         {
             isTrigerOn = true;
             Character1.SetActive(true);
-            Time.timeScale = 0f;
+            Time.timeScale = 0;
         }
+     
+
+        if (otherCollider.gameObject.CompareTag("GlyphAttack"))
+        {
+            isTrigerOn = true;
+            Character1.SetActive(true);
+            Time.timeScale = 0;
+            AttackIsOn = true;
+        }
+       
     }
 
   public void GameisOn()
     {
         isTrigerOn = false;
-        Destroy(gameObject);
-        Time.timeScale = 1f;
-        
+        Time.timeScale = 1;
+        Debug.Log("Holli");
+        Destroy(gameObject);   
     }
-
 
 }
 
