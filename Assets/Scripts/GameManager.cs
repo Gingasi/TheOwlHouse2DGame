@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
    
     private void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        if (otherCollider.gameObject.name.Equals("MAIN_CHar"))
+        if (otherCollider.gameObject.CompareTag("NextScene"))
         {
             NextLevel();
         }

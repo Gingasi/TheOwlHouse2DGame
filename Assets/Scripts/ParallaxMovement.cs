@@ -22,7 +22,7 @@ public class ParallaxMovement : MonoBehaviour
    void LateUpdate()
     {
         float deltaX = (CameraTransform.position.x - PreviousCameraMovement.x) * MultipliyerCam;
-        float moveAmount = CameraTransform.position.x * (1 - MultipliyerCam);
+        float moveAmount = CameraTransform.position.x * (1 + MultipliyerCam);
         transform.Translate(new Vector3(deltaX, 0, 0));
         PreviousCameraMovement = CameraTransform.position;
 

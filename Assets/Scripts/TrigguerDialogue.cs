@@ -35,7 +35,7 @@ public class TrigguerDialogue : MonoBehaviour
             isTrigerOn = true;
             Character1.SetActive(true);
             Time.timeScale = 0;
-            AttackIsOn = true;
+            AttackIsOn = false;
         }
        
     }
@@ -45,7 +45,8 @@ public class TrigguerDialogue : MonoBehaviour
         isTrigerOn = false;
         Time.timeScale = 1;
         Debug.Log("Holli");
-        Destroy(gameObject);   
+        Destroy(gameObject);
+        AttackIsOn = true;
     }
 
 }

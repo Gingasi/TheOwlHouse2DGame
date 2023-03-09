@@ -15,6 +15,11 @@ TagManager:
   - DialogTrigger
   - Luz
   - GlyphAttack
+  - Enemy
+  - Hit
+  - FAt
+  - PAt
+  - IAt
   layers:
   - Default
   - TransparentFX
