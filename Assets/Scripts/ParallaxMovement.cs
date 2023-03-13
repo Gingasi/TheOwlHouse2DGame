@@ -4,33 +4,34 @@ using UnityEngine;
 
 public class ParallaxMovement : MonoBehaviour
 {
-    [SerializeField] private float MultipliyerCam;
+   private float lenght, startpos;
+   public GameObject Cam;
+    public float parallaxEffect;
 
-    private Transform CameraTransform;
-    private Vector3 PreviousCameraMovement;
-    private float spriteWidth, startPosition;
-
-
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        CameraTransform = Camera.main.transform;
-        PreviousCameraMovement = CameraTransform.position;
-        startPosition = transform.position.x;
+        startpos = transform.position.x;
+        lenght = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
-   void LateUpdate()
+    private void FixedUpdate()
     {
-        float deltaX = (CameraTransform.position.x - PreviousCameraMovement.x) * MultipliyerCam;
-        float moveAmount = CameraTransform.position.x * (1 + MultipliyerCam);
-        transform.Translate(new Vector3(deltaX, 0, 0));
-        PreviousCameraMovement = CameraTransform.position;
+        float temp = (Cam.transform.position.x * (1 - parallaxEffect));
+        float dist = (Cam.transform.position.x * parallaxEffect);
 
-        if(moveAmount > startPosition + spriteWidth)
+        transform.position = new Vector3(startpos + dist, transform.position.y, transform.position.z);
+
+        if (temp > startpos + lenght)
         {
-            transform.Translate(new Vector3(spriteWidth, 0, 0));
-            startPosition += spriteWidth;
+            startpos += lenght;
         }
-        
+            
+        else if (temp < startpos - lenght)
+        {
+            startpos -= lenght;
+        }
+
+
     }
+
 }

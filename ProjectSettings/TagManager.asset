@@ -4,27 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Luz
+  - Plant
+  - Ice
   - Light
   - Fire
-  - Ice
-  - Plant
-  - hooty
-  - Belos
-  - Kikimora
-  - NextScene
-  - DialogTrigger
-  - Luz
-  - GlyphAttack
   - Enemy
+  - EnemyProy
   - Hit
-  - FAt
-  - PAt
-  - IAt
+  - NextScene
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - Ground

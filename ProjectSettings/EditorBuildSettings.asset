@@ -12,39 +12,36 @@ EditorBuildSettings:
     path: Assets/Scenes/Options.unity
     guid: bc4bbe4ff7a2a5d468d95e1abc2afc4c
   - enabled: 1
-    path: Assets/Scenes/Level.unity
+    path: Assets/Scenes/ChooseLEvel.unity
+    guid: 030718b0d6fc5de4bafa1fb116e6e993
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/Level 1.unity
-    guid: cef91045f428e5e4488e56d4ae6a5386
+    path: Assets/Scenes/Level2 forest.unity
+    guid: c5e0f0fbcf9eafa4e84291ccc07e6a0b
   - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 62dff1b5021b83c469a1241f063be012
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/Level3 OwlHouse 1.unity
+    guid: 1403eb81c71de5140a9ede36920dc148
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/NextLEvels (In process)/Level4 Boonesborough 1.unity
+    guid: 97e0ff5f7399e6347ab3ca5c31044ef8
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/NextLEvels (In process)/Level5 Hexide 1.unity
+    guid: cb14b0fda146f52459ae775466e25171
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/NextLEvels (In process)/Level6 2ndBonesborough 1.unity
+    guid: 5d255959b47c536429ad74f1491759d5
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/NextLEvels (In process)/Level7 TheSkull 1.unity
+    guid: ec0547894cb42c94f922df0141729b60
   - enabled: 1
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/NextLEvels (In process)/Level8 Thecollector 1.unity
+    guid: 739f5f2ccdb55ec4bad1b4152a7df7c5
+  - enabled: 1
+    path: Assets/Scenes/NextLEvels (In process)/Level 9 dream.unity
+    guid: 55b790ba09ef98f499bcda9f3929c24a
+  - enabled: 1
+    path: Assets/Scenes/NextLEvels (In process)/WIN.unity
+    guid: 0c35632eb25145047908daaecd407e07
   m_configObjects: {}
